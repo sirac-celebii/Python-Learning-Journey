@@ -13,7 +13,7 @@ def temizle():
 
 
 def get_option(menu, msg = "\nEnter '0' to return the menu."):
-    #Print options/taks
+    #Print options/tasks
     for index, opt in enumerate(menu, 1):
         print(f"{index}-) {opt}")
 
